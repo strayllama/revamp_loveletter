@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="bundle.js"></script>
+  <link rel="stylesheet" href="reset.css">
+  <!-- <link href="https://fonts.googleapis.com/css?family=VT323" rel="stylesheet"> -->
+  <link href=“https://fonts.googleapis.com/css?family=Dancing+Script” rel=“stylesheet”>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="./images/porkLogo.png" type="image/png" sizes="32x32">
+  <title>Love Letter</title>
+</head>
+<body>
+  <div id="page-container">
+
+    <div id="title">
+      <img id="love-logo" src="./images/love-letter-logo.png" alt="Love Letter game Logo">
+      <img id="pork-logo" src="./images/porkLogoSmall1.png" alt="Pork Games logo">
+    </div>
+    <div>
+      <button id="start-button" type="button" name="start-game">START GAME</button>
+      <button id="end-go-button" type="button" name="end-go-button">END TURN</button>
+    </div>
+
+    <div>
+      <section id="message-box"> Type in player names</br> Then press START button to initiate game!</section>
+    </div>
+
+    <div id="game-area">
+      <!-- <section id="message-box"> Type in player names</br> Then press START button to initiate game!</section> -->
+      <div id="player1and3">
+        <section class="playerSection" id="container1-section">
+          <section id="player1-nameBox" class="nameBox">
+            <input id="player1-inputName" class="input-box" type="text" name="player1-inputName" value="Player 1">
+          </section>
+          <section id="player1-cardSpace" class="card-box">
+            <img id="player1-handCardImage" class="card" src="./images/lovelettercard.png" alt="back of hand card">
+            <img id="player1-deckCardImage" class="card" src="./images/blank.png" alt="blank space for card">
+          </section>
+        </section>
+
+        <section class="playerSection" id="container3-section">
+          <section id="player3-nameBox" class="nameBox">
+            <input id="player3-inputName" class="input-box" type="text" name="player3-inputName" value="Player 3" placeholder="">
+          </section>
+          <section id="container3-handCardImage" class="card-box">
+            <img id="player3-handCardImage" class="card" src="./images/lovelettercard.png" alt="back of hand card">
+            <img id="player3-deckCardImage" class="card" src="./images/blank.png" alt="blank space for card">
+          </section>
+        </section>
+
+      </div>
+
+      <div id="discard-box">
+        <section id="controls"></section>
+        <section id="discard-pile-container"></section>
+      </div>
+
+      <div id="player2and4">
+        <section class="playerSection" id="container2-section">
+          <section id="player2-nameBox" class="nameBox">
+            <input id="player2-inputName" class="input-box" type="text" name="player2-inputName" value="Player 2">
+          </section>
+          <section id="player2-cardSpace" class="card-box">
+            <img id="player2-handCardImage" class="card" src="./images/lovelettercard.png" alt="back of hand card">
+            <img id="player2-deckCardImage" class="card" src="./images/blank.png" alt="blank space for card">
+          </section>
+        </section>
+
+
+        <section class="playerSection" id="container4-section">
+          <section id="player4-nameBox" class="nameBox">
+            <input id="player4-inputName" class="input-box" type="text" name="player4-inputName" value="Player 4">
+          </section>
+          <section id="container4-handCardImage" class="card-box">
+            <img id="player4-handCardImage" class="card" src="./images/lovelettercard.png" alt="back of hand card">
+            <img id="player4-deckCardImage" class="card" src="./images/blank.png" alt="blank space for card">
+          </section>
+        </section>
+
+      </div>
+    </div> <!-- end game-area -->
+
+  </div>  <!-- end page-container -->
+</body>
+</html>
