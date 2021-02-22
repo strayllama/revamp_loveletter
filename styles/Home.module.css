@@ -1,4 +1,5 @@
 .container {
+  background-image: url('../public/images/bkgd-red-thistle.jpg');
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -35,22 +36,17 @@
   align-items: center;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
+/*.title a:hover,*/
+/*.title a:focus,*/
+/*.title a:active {*/
+/*  text-decoration: underline;*/
+/*}*/
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
+/*.title {*/
+/*  margin: 0;*/
+/*  line-height: 1.15;*/
+/*  font-size: 4rem;*/
+/*}*/
 
 .title,
 .description {
@@ -111,7 +107,7 @@
 }
 
 .logo {
-  height: 1em;
+  height: 4em;
 }
 
 @media (max-width: 600px) {

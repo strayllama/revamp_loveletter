@@ -1,0 +1,124 @@
+
+
+.body {
+  background-image: url('/images/background.jpg');
+  font-family: Georgia, Helvetica;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#page-container {}
+#title {}
+
+.player_name {
+  font-size: 2em;
+  font-style: italic;
+  font-weight: bold;
+  color: rgb(255,215,0);
+}
+
+#start-button {
+  background-color: rgb(190, 20, 40);
+  border: none;
+  outline: none;
+  color: rgb(212,175,55);
+  text-decoration: none;
+  /* display: inline-block; */
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px rgb(117, 81, 81);
+}
+
+#start-button:hover {
+  background-color: rgb(212,175,55);
+  color: rgb(190, 20, 40);
+}
+
+#start-button:active {
+  background-color: rgb(231, 149, 27);
+  box-shadow: 1px 2px #666;
+  transform: translateY(3px);
+}
+
+#end-go-button {
+  background-color: rgb(158, 147, 130);
+  border: none;
+  outline: none;
+  color: #614d4d;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0px 4px rgb(117, 81, 81);
+}
+
+#message-box {
+  font-family: ‘Dancing Script’, cursive;
+  font-weight: bold;
+  color: rgb(1, 68, 111);
+  /* background-image: url("images/bkgd-red-thistle.jpg"); */
+  margin: 15px 5px 10px 5px;
+  font-size: 2em;
+  line-height: 1.5em;
+  height: 3em;
+}
+
+#game-area {}
+
+.nameBox {
+  background-color: rgb(190, 20, 40);
+  height: 2.3em;
+  text-align: center;
+  vertical-align: middle;
+  color: #852020;
+  font-size: 1em;
+  border-radius: 25px;
+  border: 1px black solid;
+}
+
+.input-box {
+  font-size: 1.5em;
+}
+
+#player1and3, #player2and4, #discard-box {
+  display: inline-block;
+  vertical-align: top;
+}
+#discard-box {
+  width: 270px;
+}
+#player1and3, #player2and4 {
+  width: 500px;
+}
+
+#discard-pile-container {
+  text-align: center;
+  vertical-align: top;
+}
+#controls {
+  height: 4.2em;
+}
+
+.control-item {
+  font-size: 1.5em;
+}
+
+.playerSection{
+  height: 360px;
+  color: rgb(24, 22, 22);
+  /*border-radius: 18px;*/
+  display: inline-block;
+  border-radius: 0 0 25px 25px;
+}
+
+.card {
+  border-radius: 25px;
+  border: 1px solid black;
+}
+
+
+.discarded-card {
+  border-radius: 25px;
+  border: 1px black solid;
+}

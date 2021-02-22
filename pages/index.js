@@ -1,63 +1,57 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+// import Link from 'next/link';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <title>Love Letter Game</title>
+        <link rel="icon" href="/images/favicon.ico" />
       </Head>
 
+
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
+        <img src="/images/love-letter-logo.png" alt="Love Letter game Logo" />
 
         <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
+          {' '}
+          <code className={styles.code}>Choose your settings and lets PLAY</code>
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <div className={styles.card}>
+            <h3>Choose number of players</h3>
+            <p>1 - 4 humans players</p>
+            <p>, 1 - 3 cpu players</p>
+          </div>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+          <div className={styles.card}>
+            <h3>Normal or Extended Game?</h3>
+            <p>Normal deck is 8 characters, extended has 16 in total</p>
+          </div>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+          <div className={styles.card}>
             <h3>Examples &rarr;</h3>
             <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+          </div>
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
+          {/*<Link href="/game/game" className={styles.card}>*/}
+            <h3>START GAME &rarr;</h3>
+            <p> some text.</p>
+          {/*</Link>*/}
         </div>
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+          href="https://github.com/strayllama/revamp_loveletterit"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className={styles.logo} />
+          <img src="/images/porkLogoSmall.png" alt="Pork Logo" className={styles.logo} />
         </a>
       </footer>
     </div>
